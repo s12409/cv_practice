@@ -92,8 +92,7 @@ while (1):  # 永久迴圈
 cv.destroyWindow('draw')  # 關閉視窗
 # part2
 # img2 = cv.imread('./data/ntust.jpg')  # 將影像開啟
-img2 = cv.imread('F:/ntust_image_process/Example-Part6/Example-Part6/data/ntust.jpg')  # 將影像開啟
-"F:\ntust_image_process\Example-Part6\Example-Part6\data\ntust.jpg"
+img2 = cv.imread('./data/ntust.jpg')  # 將影像開啟
 print('shape of img2:')
 print(np.shape(img2))  # 顯示影像尺寸
 slider3_max = img2.shape[1]
